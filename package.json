@@ -1,0 +1,16 @@
+{
+  "name": "netlify-functions-cors",
+  "version": "1.0.0",
+  "description": "Netlify function to add CORS headers",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunnalla/netlify-functions-cors.git"
+  },
+  "author": "Arun Nalla <hello@arunnalla.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arunnalla/netlify-functions-cors/issues"
+  },
+  "homepage": "https://github.com/arunnalla/netlify-functions-cors#readme"
+}
