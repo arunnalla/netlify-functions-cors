@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  functions = ".netlify/functions/"
+
+[[redirects]]
+  from = "/:url"
+  to = "/.netlify/functions/cors/:url"

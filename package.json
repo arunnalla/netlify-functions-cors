@@ -2,7 +2,10 @@
   "name": "netlify-functions-cors",
   "version": "1.0.0",
   "description": "Netlify function to add CORS headers",
-  "scripts": {},
+  "scripts": {
+    "dev": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arunnalla/netlify-functions-cors.git"
@@ -12,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/arunnalla/netlify-functions-cors/issues"
   },
-  "homepage": "https://github.com/arunnalla/netlify-functions-cors#readme"
+  "homepage": "https://github.com/arunnalla/netlify-functions-cors#readme",
+  "dependencies": {
+    "netlify-lambda": "^2.0.15"
+  }
 }
